@@ -403,7 +403,7 @@ else:
         print(-1)
 ```
 
-```
+```.py
 b=-1
 t=0
 maxt=t
