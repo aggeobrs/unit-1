@@ -1,6 +1,6 @@
 **CS PROJECT**
 
-**CRETERION A: PLANNING**
+**CRITERION A: PLANNING**
 
 **Problem definition**
 
