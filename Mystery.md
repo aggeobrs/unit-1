@@ -1,5 +1,10 @@
 ```.py
-def mystery(n1, n2, n3):
+def mystery(country):
+  print(len(country))
+```
+
+```.py
+def mystery_2(n1, n2, n3):
   if n1==n2 and n2==n3:
     print(3)
   else:
@@ -7,4 +12,12 @@ def mystery(n1, n2, n3):
       print(2)
     else:
       print(0)
+```
+
+```.py
+def mystery3(n1, n2):
+  if n1/n2==1/2:
+    print("True")
+  else:
+    print("False")
 ```
