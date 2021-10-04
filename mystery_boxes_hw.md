@@ -33,15 +33,16 @@ def mystery_box3(a,b,c):
     print(d)
 ```
 ```.py
-def mystery_box4(list):
-    n_list=[0,0,0,0,0]
+def mystery_box4(numbers=[]):
+    n_list=[]
     n=0
     s=0
-    for i in range(len(list)):
-        if list[i]<8:
-            n_list[n]+=list[i]
-            s+=list[i]
+    for i in range(len(numbers)):
+        if numbers[i]<8:
+            n_list.append(numbers[i])
+            s+=numbers[i]
             n+=1
         average=s/n
-    print(average, n_list)
+    return average, n_list
+print(mystery_box4(numbers=[5, 6, 3, 8, 1, 7, 9]))
 ```    
