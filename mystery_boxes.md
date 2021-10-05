@@ -59,3 +59,10 @@ def division(a,b):
         d=a*b
     return d
 ```
+```.py
+def shift(word):
+    n_word=""
+    for i in range(len(word)):
+        n_word+=chr(ord(word[i])+1)
+    return n_word
+```
