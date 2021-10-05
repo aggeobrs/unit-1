@@ -66,3 +66,10 @@ def shift(word):
         n_word+=chr(ord(word[i])+1)
     return n_word
 ```
+```.py
+def weird_average(numbers=[]):
+    s=0
+    for i in range(len(numbers)):
+        s+=numbers[i]
+    return s*len(numbers)
+```
